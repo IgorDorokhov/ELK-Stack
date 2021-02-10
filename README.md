@@ -8,6 +8,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - [install-ekl.yml](Ansible/install-ekl.yml)
   - [playbook.yml](Ansible/playbook.yml)
+  - [filebeat-playbook.yml](Ansible/roles/filebeat-playbook.yml)
+  - [metricbeat-playbook.yml](Ansible/roles/metricbeat-playbook.yml)
+  - [filebeat config](Ansible/files/filebeat-playbook.yml)
+  - [metricbeat config](Ansible/files/metricbeat-playbook.yml)
+  - [hosts](Ansible/hosts)
+  - [ansible.cfg](Ansible/ansible/cfg)
 
 This document contains the following details:
 - Description of the Topology
@@ -70,7 +76,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/docker_ps_output.png)
+![](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
