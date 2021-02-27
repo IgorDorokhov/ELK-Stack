@@ -58,7 +58,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  | Workstation IP only  |
+| Jump Box | Yes                 | Workstation IP only  |
 | Web1     | No                  | 10.0.0.4             |
 | Web2     | No                  | 10.0.0.4             |
 | ELK      | No                  | 10.0.0.4             |
